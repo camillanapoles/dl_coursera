@@ -1,0 +1,34 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.coursera.org	TRUE	/	FALSE	1654619135	CSRF3-Token	1654619136.MmUmoidPZrCdOkNn
+.coursera.org	TRUE	/	FALSE	1685291135	__204u	3975047616-1653755136221
+.coursera.org	TRUE	/	FALSE	1685291135	__204r	
+.coursera.org	TRUE	/	FALSE	1653756935	__400v	fd030d63-26d4-42ae-c159-bf35595e9250
+.coursera.org	TRUE	/	FALSE	1716827178	_ga	GA1.2.2112746574.1653755137
+.coursera.org	TRUE	/	FALSE	1653841578	_gid	GA1.2.1635058792.1653755137
+.coursera.org	TRUE	/	FALSE	0	IR_gbd	coursera.org
+.coursera.org	TRUE	/	FALSE	1661531137	_gcl_au	1.1.32533150.1653755137
+www.coursera.org	FALSE	/	FALSE	1685291176	usprivacy	1---
+.coursera.org	TRUE	/	TRUE	1661531178	_rdt_uuid	1653755139168.03346b8a-6381-4b68-badc-53956eaeb484
+.coursera.org	TRUE	/	FALSE	1661531215	_fbp	fb.1.1653755139497.1646713283
+www.coursera.org	FALSE	/	FALSE	1653756946	maId	{"cid":"477ddfc47aa57ab7dd52727d94763d34","sid":"904c2a90-90b0-4c5a-895d-98a878568280","isSidSaved":true,"sessionStart":"2022-05-28T16:25:39.000Z"}
+.coursera.org	TRUE	/	FALSE	1685291140	_clck	ftx7j4|1|f1u|0
+.coursera.org	TRUE	/	TRUE	1658075141	CAUTH	JbvjFchn4Pr2HwQ3PQNmdDadsadFXQimCIGBYBSLsCBc-4ZEaz6rLY1bZWh8F_heuB__WKIby_niIt33hLlFnQ.yi5SxQKiWmnKGc_R2w1jfw.K8det_01c2OllroEdc4zep35zu4z3TQCmxFnqmzbeVJcaVUKLLrKuTqqcalFIRkSdH9ZlVgaHuE6HHBuXaBsq0FDZYA4UlcJGFycrDc7ZEeJTjbmjmbQZUNgXRV_np3if1hl_CvKwtJbRwDtRMZJlITHe5QIRBGawS2GjW3qyizHAMgfgzIkV9ogyw-sucacC4LAHt0bt6p4bP3moOdqBx8l9Wivg0D_PYJKsVuRChjmeqsRxVXEBgFGvU-zPNxlYIumj0XmqofTbGr6th4szPGHREPzmbTl49ks_HWq4zkIvfNLHVQj39kztaPX-C3oonRuS87clksJNhnzJxAzgfjID1n5zSyR0b9kBZlUeYObOE2gU15wHpRCqsBjhcNDd0QVbsObRO7HpZrc8U5cswaHgE6dXuq6ZSsOTDoHKV-Ud0kGDrGyS0JL9F-ScqKgPkleuuApbAWaZKOlNH8wdQ
+.coursera.org	TRUE	/	TRUE	0	profileconsent	eyI0MTMxNjQ5NyI6eyJjY3BhUmVxdWlyZWQiOmZhbHNlLCJnZHByUmVxdWlyZWQiOmZhbHNlfX0=
+.coursera.org	TRUE	/	FALSE	1685291186	_lab	53134146
+www.coursera.org	FALSE	/	FALSE	1685291146	OneTrustWPCCPAGoogleOptOut	false
+.coursera.org	TRUE	/	FALSE	1653756989	_hjFirstSeen	1
+.coursera.org	TRUE	/	FALSE	1653756989	_hjSession_469298	eyJpZCI6IjNlYWQ0ZjBiLTIxZTMtNGRiNS05OTA3LTA5MTQzMDUwNDU5NyIsImNyZWF0ZWQiOjE2NTM3NTUxNTkzNjgsImluU2FtcGxlIjpmYWxzZX0=
+.coursera.org	TRUE	/	FALSE	1653756989	_hjAbsoluteSessionInProgress	1
+.coursera.org	TRUE	/	FALSE	1685291173	_hjSessionUser_469298	eyJpZCI6ImQ2YzYxNDZjLWZhOTAtNWE4OC05NDI0LTI0MWM1MWU5NDg4ZiIsImNyZWF0ZWQiOjE2NTM3NTUxNTkwMzIsImV4aXN0aW5nIjp0cnVlfQ==
+.coursera.org	TRUE	/	FALSE	0	IR_14726	1653755178372%7C0%7C1653755178372%7C%7C
+www.coursera.org	FALSE	/	FALSE	1716827178	_tq_id.TV-63455409-1.39ed	b0af8114f8661911.1653755140.0.1653755179..
+.coursera.org	TRUE	/	FALSE	1685291178	OptanonConsent	isIABGlobal=false&datestamp=Sat+May+28+2022+13%3A26%3A18+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=6.10.0&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&AwaitingReconsent=false&geolocation=BR%3BPE
+.coursera.org	TRUE	/	FALSE	1685291178	OptanonAlertBoxClosed	2022-05-28T16:26:18.611Z
+.coursera.org	TRUE	/	FALSE	1653841579	_uetsid	cfb94300dea211ecb8260dd24bd30d16
+.coursera.org	TRUE	/	FALSE	1687451179	_uetvid	cfb95880dea211ec85bb173e4f75d32b
+.coursera.org	TRUE	/	FALSE	1653841580	_clsk	1orb8sk|1653755180464|5|0|b.clarity.ms/collect
+.coursera.org	TRUE	/	FALSE	1687919181	cto_bundle	yanGYV83UnRUSllBY3VZeG84RkI1R0U0OFlzWjBBTkFjRjJWbUEyVVIlMkZDenNFQWElMkJaU2NoZ1d2aW9WMzAlMkJkdFVLbSUyQjNKR2JXMFNkOE94MTlleDBnVk4lMkJtb2ZwZm41QlNUOUMlMkZYbFMxa0pyTnY1RCUyRjFsMTB3OGxRRDhxa3dGZkVvR0JaV0Y1c2VGUHpIQUl0UmN0czczVktIdyUzRCUzRA
+.coursera.org	TRUE	/	FALSE	1653757020	__400vt	1653755220748

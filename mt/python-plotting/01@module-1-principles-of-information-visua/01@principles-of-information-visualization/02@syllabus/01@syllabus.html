@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Syllabus</title>
+  <script src="../../../resource/jquery.js"></script>
+  <script>
+    $(function () {
+      var math_spans = $('span[hasMath="true"]');
+      if (math_spans.length > 0) {
+        load_css('../../../resource/katex/katex.min.css');
+        load_js('../../../resource/katex/katex.min.js', function () {
+          math_spans.each(function () {
+            katex.render($(this).text(), this, { throwOnError: false });
+          });
+        });
+      }
+    });
+
+    function load_css(url) {
+      $('<link>')
+        .appendTo('head')
+        .attr({
+          type: 'text/css',
+          rel: 'stylesheet',
+          href: url
+        });
+    }
+
+    function load_js(url, func) {
+      $('<script>')
+        .appendTo('head')
+        .attr({
+          src: url
+        })
+        .on('load', func);
+    }
+  </script>
+  <style>
+    .content-container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    pre, p.asset {
+      padding: 1em;
+      background: #f5f2f0;
+      overflow: auto;
+    }
+
+    p, h1, h2, h3, h4, h5, h6 {
+      font-family: OpenSans,Arial,sans-serif;
+      overflow-wrap: break-word;
+    }
+
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    table, th, td {
+      border: 1px gray solid;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-container">
+<p><strong>Welcome to Applied Plotting, Charting &amp; Data Representation in Python</strong>, taught by Christopher Brooks!</p><p>This course will introduce the learner to information visualization basics, with a focus on reporting and charting using the matplotlib library. The course will start with a design and information literacy perspective, touching on what makes a good and bad visualization, and what statistical measures translate into in terms of visualizations. The second week will focus on the technology used to make visualizations in python, matplotlib, and introduce users to best practices when creating basic charts and how to realize design decisions in the framework. The third week will be a tutorial of functionality available in matplotlib, and demonstrate a variety of basic statistical charts helping learners to identify when a particular method is good for a particular problem. The course will end with a discussion of other forms of structuring and visualizing data. 
+
+This course should be taken after Introduction to Data Science in Python and before the remainder of the Applied Data Science with Python courses: Applied Machine Learning in Python, Applied Text Mining in Python, and Applied Social Network Analysis in Python.</p><h2>Participation Strategies</h2><p>Engaged learning looks different for everybody. In this course, we hope you will define your own measures of success and engage with the material in a way that best suits your needs. We recognize and celebrate the diverse ways learners engage in courses. As you go through this course, we hope you will reflect on your unique skills, needs, and aspirations, and engage in the course material in a way that aligns with your own goals. While the course provides time estimates for completion, you should feel empowered to engage in the material in whatever ways make sense to you.</p><h2>Course Schedule &amp; Grading Policy </h2><p>The lectures will provide you with some guidance for completing assignments, but you will need to take initiative and look beyond assignment instructions in order to be successful. You'll need to know how to ask questions in the discussion forums of your peers, and seek out new information through web searches and <a href="http://stackoverflow.com/questions/tagged/matplotlib">Stack Overflow</a>. Be sure to also check out the <a href="../../../references/02@additional-python-resources.html" refid="PH7Se">Additional Python Resources</a>. </p><p>If you are not sure what kind of output is required, or think there is a need for more clarity, please head to the course discussion forums. Note that some assignments and in video quizzes may not be mobile friendly.  </p><p>Some assignments allow you to download and view your fellow learner’s code and/or data.  If you want to look at the learner's code, we recommend that you open it through the Jupyter notebook system on the Coursera platform as that will be more secure.  Please ensure that all data you share is publicly available, since you will be sharing these data with other learners.</p><p><strong>Week One: 25%</strong></p><p>In <strong>week one</strong> you will be introduced to the principles of data visualization. This week’s assignment asks that you carefully read Alberto Cairo's work, <a href="https://faculty.ucmerced.edu/jvevea/classes/Spark/readings/Cairo2015_Chapter_GraphicsLiesMisleadingVisuals.pdf">Graphics Lies, Misleading Visuals</a>. You will locate and identify a visual that displays misleading information. You will interpret the features of the visual in order to identify the mechanism(s) that is/are used by the "encoder" to mislead the "decoder." For each mechanism that you identify, you will explain how it was used to mislead.</p><ul><li><p>Peer Review: Graphics Lies, Misleading Visuals (25%)</p></li></ul><p><strong>Week Two: 25%</strong> </p><p>In <strong>week two</strong> you will delve into basic charting. For this week’s assignment, you will work with real world CSV weather data. You will manipulate the data to display the minimum and maximum temperature for a range of dates and demonstrate that you know how to create a line graph using matplotlib. Additionally, you will demonstrate procedure of composite charts, by overlaying a scatter plot of record breaking data for a given year.</p><ul><li><p>Peer Review: Plotting Weather Patterns (25%)</p></li></ul><p><strong>Week Three: 25%</strong></p><p>In <strong>week three</strong> you will explore charting fundamentals. For this week’s assignment you will work to implement a new visualization technique based on academic research. This assignment is flexible and you can address it using a variety of difficulties - from an easy static image to an interactive chart where users can set ranges of values to be used.</p><ul><li><p>Peer Review: Building a Custom Visualization (25%)</p></li></ul><p><strong>Week Four: 25%</strong></p><p>In <strong>week four</strong>, then everything starts to come together. Your final assignment is entitled “Becoming a Data Scientist.” This assignment requires that you identify at least two publicly accessible datasets from the same region that are consistent across a meaningful dimension. You will state a research question that can be answered using these data sets and then create a visual using matplotlib that addresses your stated research question. You will then be asked to justify how your visual addresses your research question. </p><ul><li><p>Peer Review: Becoming an Independent Data Scientist (25%)</p></li></ul><h2>Ground Rules</h2><p>We expect everyone to be mindful of what they say and its potential impact on others. The goal is to have respectful discussions that do not violate the community space created for these conversations. Here are some productive ways to engage in this course: </p><ul><li><p><strong>Participate:</strong> This is a community. Read what others have written and share your thoughts.</p></li><li><p><strong>Stay curious:</strong> Learn from experts and each other by listening and asking questions, not making assumptions.</p></li><li><p><strong>Keep your passion positive: </strong>When replying to a discussion forum post, respond with thoughts on what was said, not about the person who posted. Avoid using all caps, too many exclamation points, or aggressive language.</p></li><li><p><strong>Acknowledge discomfort:</strong> The topics discussed in this course might be challenging or hard to talk about. Stick with it and remember the benefits of having these tough conversations that surface from multiple perspectives.</p></li></ul><p>We expect all learners to abide by our full <a href="https://docs.google.com/document/d/18Ucy-lT33FmkDDYdtxHEJ_nRytVLr_XGRVq2moAsPB4/edit">Learner Engagement Policy</a>. We will specifically be monitoring this course for language that could be considered inflammatory, incivil, racist, or otherwise unacceptable for this learning space, and we will remove language deemed such. </p><p><em>Please note that external study groups on applications like WhatsApp are not affiliated or endorsed by the University of Michigan. We strongly discourage joining external groups and instead recommend interacting with your fellow learners within the platform.
+
+Please express caution if you do join or post any personal information in these forums or in these groups. These forums are publicly accessible and any information you post may be collected, published, or used in an exploitative manner (scams, etc).</em>
+</p><h2>Academic Honesty</h2><p>All submitted work should be your own and academic dishonesty is not allowed. Academic dishonesty can be defined as:</p><ul><li><p>Copying answers</p></li><li><p>Copying words, ideas, or other materials from another source without giving credit to the original author</p></li><li><p>Copying from your peers within the course</p></li><li><p>Employing or allowing another person to alter or revise your work, and then submitting the work as your own</p></li></ul><p><strong>Please don’t share or reuse solutions to assignments which is an academic integrity concern. Please do not:</strong></p><ul><li><p>Share complete assignment code in the course discussion forums</p></li><li><p>Upload completed assignments to public websites with the goal of sharing solutions. (You can share your work and ideas for professional purposes though).</p></li><li><p>Take a peer’s solution and submit it as your own</p></li></ul><h2>Course Support</h2><p>Questions and discussion of course material should take place within the course itself. Please do not contact instructors or teaching assistants off the platform, as responding to individual questions is virtually impossible. We encourage you to direct your questions to [forum], where your question might be answered by a fellow learner or one of our course team members. For technical help please contact the <a href="https://learner.coursera.help/hc/en-us">Coursera Learner Help Center</a> or use the support forums.</p><h2>Accessibility </h2><p>We are committed to developing accessible learning experiences for the widest possible audience. We recognize that learners with disabilities (including but not limited to visual impairments, hearing impairments, cognitive disabilities, or motor disabilities) might need more specific accessibility-related support to achieve learning goals in this course. </p><p>Please use the <a href="https://forms.gle/sxxDQvstDYJF9PtR6">accessibility feedback form</a> to let us know about any accessibility challenges such as urgent issues that keep you from making progress in the course (e.g., missing or inadequate alt-text, captioning errors).</p><h2>Diversity, Equity, Inclusion, and Justice</h2><p><strong>We welcome all learners to this course.</strong> People like you are joining from all over the world and we value this diversity. We strive to create a community of mutual respect and trust, where people from all backgrounds, identities and views are valued and heard without the threat of bias, harassment, intimidation, or discrimination. We pay attention to your feedback, how different types of learners experience this course, and aim to make improvements so the course can best serve everyone. We hope you enjoy learning about topics that are important to you.</p>
+  </div>
+</body>
+</html>

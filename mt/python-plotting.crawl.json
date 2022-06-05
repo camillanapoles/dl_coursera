@@ -1,0 +1,728 @@
+{
+    "type": "Course",
+    "id": "IIoidx0zEeaeiw6Wrvtw9w",
+    "name": "Applied Plotting, Charting & Data Representation in Python",
+    "slug": "python-plotting",
+    "modules": [
+        {
+            "type": "Module",
+            "id": "2guht",
+            "name": "Module 1: Principles of Information Visualization",
+            "slug": "module-1-principles-of-information-visualization",
+            "lessons": [
+                {
+                    "type": "Lesson",
+                    "id": "uqzcz",
+                    "name": "Principles of Information Visualization",
+                    "slug": "principles-of-information-visualization",
+                    "items": [
+                        {
+                            "type": "Lecture",
+                            "id": "7uYsh",
+                            "name": "Introduction",
+                            "slug": "introduction",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/B6SZaP0fEearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=ff2bMziq-DZ688NIAfA2D6feTEHty3ESG5A~VaFYELtt1SNVgNNMEwjebC31Xml8upsCd0IewkzlMh5kn5ARBjXT24Dcqxl3r7Ll8ZC9d3jFM8hXhDECiXObrKQBVky0q9Wj9Z97yxI9iDz6-vhbEpxMJAGpnCkmnq5SZ~QN-zA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/vevj7x_0Qmur4-8f9AJrZA?expiry=1653868800000&hmac=X4pWyKgYb-g6mEZlUiPoDO307VWOEzKknrgKz_vqucg&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "Faz2H",
+                            "name": "Syllabus",
+                            "slug": "syllabus",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p><strong>Welcome to Applied Plotting, Charting &amp; Data Representation in Python</strong>, taught by Christopher Brooks!</p><p>This course will introduce the learner to information visualization basics, with a focus on reporting and charting using the matplotlib library. The course will start with a design and information literacy perspective, touching on what makes a good and bad visualization, and what statistical measures translate into in terms of visualizations. The second week will focus on the technology used to make visualizations in python, matplotlib, and introduce users to best practices when creating basic charts and how to realize design decisions in the framework. The third week will be a tutorial of functionality available in matplotlib, and demonstrate a variety of basic statistical charts helping learners to identify when a particular method is good for a particular problem. The course will end with a discussion of other forms of structuring and visualizing data. \n\nThis course should be taken after Introduction to Data Science in Python and before the remainder of the Applied Data Science with Python courses: Applied Machine Learning in Python, Applied Text Mining in Python, and Applied Social Network Analysis in Python.</p><h2>Participation Strategies</h2><p>Engaged learning looks different for everybody. In this course, we hope you will define your own measures of success and engage with the material in a way that best suits your needs. We recognize and celebrate the diverse ways learners engage in courses. As you go through this course, we hope you will reflect on your unique skills, needs, and aspirations, and engage in the course material in a way that aligns with your own goals. While the course provides time estimates for completion, you should feel empowered to engage in the material in whatever ways make sense to you.</p><h2>Course Schedule &amp; Grading Policy </h2><p>The lectures will provide you with some guidance for completing assignments, but you will need to take initiative and look beyond assignment instructions in order to be successful. You'll need to know how to ask questions in the discussion forums of your peers, and seek out new information through web searches and <a href=\"http://stackoverflow.com/questions/tagged/matplotlib\">Stack Overflow</a>. Be sure to also check out the <a href=\"https://www.coursera.org/learn/python-plotting/resources/PH7Se\" refid=\"PH7Se\">Additional Python Resources</a>. </p><p>If you are not sure what kind of output is required, or think there is a need for more clarity, please head to the course discussion forums. Note that some assignments and in video quizzes may not be mobile friendly.  </p><p>Some assignments allow you to download and view your fellow learner\u2019s code and/or data.  If you want to look at the learner's code, we recommend that you open it through the Jupyter notebook system on the Coursera platform as that will be more secure.  Please ensure that all data you share is publicly available, since you will be sharing these data with other learners.</p><p><strong>Week One: 25%</strong></p><p>In <strong>week one</strong> you will be introduced to the principles of data visualization. This week\u2019s assignment asks that you carefully read Alberto Cairo's work, <a href=\"https://faculty.ucmerced.edu/jvevea/classes/Spark/readings/Cairo2015_Chapter_GraphicsLiesMisleadingVisuals.pdf\">Graphics Lies, Misleading Visuals</a>. You will locate and identify a visual that displays misleading information. You will interpret the features of the visual in order to identify the mechanism(s) that is/are used by the \"encoder\" to mislead the \"decoder.\" For each mechanism that you identify, you will explain how it was used to mislead.</p><ul><li><p>Peer Review: Graphics Lies, Misleading Visuals (25%)</p></li></ul><p><strong>Week Two: 25%</strong> </p><p>In <strong>week two</strong> you will delve into basic charting. For this week\u2019s assignment, you will work with real world CSV weather data. You will manipulate the data to display the minimum and maximum temperature for a range of dates and demonstrate that you know how to create a line graph using matplotlib. Additionally, you will demonstrate procedure of composite charts, by overlaying a scatter plot of record breaking data for a given year.</p><ul><li><p>Peer Review: Plotting Weather Patterns (25%)</p></li></ul><p><strong>Week Three: 25%</strong></p><p>In <strong>week three</strong> you will explore charting fundamentals. For this week\u2019s assignment you will work to implement a new visualization technique based on academic research. This assignment is flexible and you can address it using a variety of difficulties - from an easy static image to an interactive chart where users can set ranges of values to be used.</p><ul><li><p>Peer Review: Building a Custom Visualization (25%)</p></li></ul><p><strong>Week Four: 25%</strong></p><p>In <strong>week four</strong>, then everything starts to come together. Your final assignment is entitled \u201cBecoming a Data Scientist.\u201d This assignment requires that you identify at least two publicly accessible datasets from the same region that are consistent across a meaningful dimension. You will state a research question that can be answered using these data sets and then create a visual using matplotlib that addresses your stated research question. You will then be asked to justify how your visual addresses your research question. </p><ul><li><p>Peer Review: Becoming an Independent Data Scientist (25%)</p></li></ul><h2>Ground Rules</h2><p>We expect everyone to be mindful of what they say and its potential impact on others. The goal is to have respectful discussions that do not violate the community space created for these conversations. Here are some productive ways to engage in this course:\u00a0</p><ul><li><p><strong>Participate:</strong> This is a community. Read what others have written and share your thoughts.</p></li><li><p><strong>Stay curious:</strong> Learn from experts and each other by listening and asking questions, not making assumptions.</p></li><li><p><strong>Keep your passion positive: </strong>When replying to a discussion forum post, respond with thoughts on what was said, not about the person who posted. Avoid using all caps, too many exclamation points, or aggressive language.</p></li><li><p><strong>Acknowledge discomfort:</strong> The topics discussed in this course might be challenging or hard to talk about. Stick with it and remember the benefits of having these tough conversations that surface from multiple perspectives.</p></li></ul><p>We expect all learners to abide by our full <a href=\"https://docs.google.com/document/d/18Ucy-lT33FmkDDYdtxHEJ_nRytVLr_XGRVq2moAsPB4/edit\">Learner Engagement Policy</a>. We will specifically be monitoring this course for language that could be considered inflammatory, incivil, racist, or otherwise unacceptable for this learning space, and we will remove language deemed such.\u00a0</p><p><em>Please note that external study groups on applications like WhatsApp are not affiliated or endorsed by the University of Michigan. We strongly discourage joining external groups and instead recommend interacting with your fellow learners within the platform.\n\nPlease express caution if you do join or post any personal information in these forums or in these groups. These forums are publicly accessible and any information you post may be collected, published, or used in an exploitative manner (scams, etc).</em>\n</p><h2>Academic Honesty</h2><p>All submitted work should be your own and academic dishonesty is not allowed. Academic dishonesty can be defined as:</p><ul><li><p>Copying answers</p></li><li><p>Copying words, ideas, or other materials from another source without giving credit to the original author</p></li><li><p>Copying from your peers within the course</p></li><li><p>Employing or allowing another person to alter or revise your work, and then submitting the work as your own</p></li></ul><p><strong>Please don\u2019t share or reuse solutions to assignments which is an academic integrity concern. Please do\u00a0not:</strong></p><ul><li><p>Share complete assignment code in the course discussion forums</p></li><li><p>Upload completed assignments to public websites with the goal of sharing solutions. (You can share your work and ideas for professional purposes though).</p></li><li><p>Take a peer\u2019s solution and submit it as your own</p></li></ul><h2>Course Support</h2><p>Questions and discussion of course material should take place within the course itself. Please do not contact instructors or teaching assistants off the platform, as responding to individual questions is virtually impossible. We encourage you to direct your questions to [forum], where your question might be answered by a fellow learner or one of our course team members. For technical help please contact the <a href=\"https://learner.coursera.help/hc/en-us\">Coursera Learner Help Center</a> or use the support forums.</p><h2>Accessibility\u00a0</h2><p>We are committed to developing accessible learning experiences for the widest possible audience. We recognize that learners with disabilities (including but not limited to visual impairments, hearing impairments, cognitive disabilities, or motor disabilities) might need more specific accessibility-related support to achieve learning goals in this course.\u00a0</p><p>Please use the <a href=\"https://forms.gle/sxxDQvstDYJF9PtR6\">accessibility feedback form</a> to let us know about any accessibility challenges such as urgent issues that keep you from making progress in the course (e.g., missing or inadequate alt-text, captioning errors).</p><h2>Diversity, Equity, Inclusion, and Justice</h2><p><strong>We welcome all learners to this course.</strong> People like you are joining from all over the world and we value this diversity. We strive to create a community of mutual respect and trust, where people from all backgrounds, identities and views are valued and heard without the threat of bias, harassment, intimidation, or discrimination. We pay attention to your feedback, how different types of learners experience this course, and aim to make improvements so the course can best serve everyone. We hope you enjoy learning about topics that are important to you.</p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "EysSF",
+                            "name": "Help us learn more about you!",
+                            "slug": "help-us-learn-more-about-you",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>As part of getting to know you better, your backgrounds, your interest in this specific course and in digital education in general, we at the University of Michigan have crafted a survey that should only take a few minutes to complete. Our goal is to keep our communication with you focused on learning and staying in touch, but we believe that both this and an end-of-course survey are important to our mutual educational goals.</p><p><a href=\"https://umich.qualtrics.com/SE/?SID=SV_0jlCNjOO8x2jA7X&amp;phoenix_session_user_id=ee5c58150ef58d8152b3f83b7d141131a81c5738&amp;name=%NAME%&amp;platform_id=coursera_phoenix&amp;course_id=python-plotting\">Take the survey</a></p><p>Thank you for participating!</p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "CpFeA",
+                            "name": "About the Professor: Christopher Brooks",
+                            "slug": "about-the-professor-christopher-brooks",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/zc1x69naEeamdAphtyjZ1A.processed/full/720p/index.mp4?Expires=1653868800&Signature=FAJWKvTRn8Pco7GTR6~frKmjIL1xCfAtY5PlYDDgcd85MrldK-rjnGFFjTUHrXjMcjHeSrRtzPZ9713p0Loh2YvR~9gIue8kXJ2JeWGY3C0IQMfMSzh45KkImMMIZk6TMmBOvsSMkRgEMkDcMNzVYKAODkCjfqkMWHtPggasP00_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/Idy8UmA2RnOcvFJgNjZzLA?expiry=1653868800000&hmac=LEQodS1NHjAYqRTfaizO2GlBjQMkahtw_QyDC4nraIo&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "qrqqa",
+                            "name": "Tools for Thinking about Design (Alberto Cairo)",
+                            "slug": "tools-for-thinking-about-design-alberto-cairo",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/OplrYxO5EeeExg76uXNxYA.processed/full/720p/index.mp4?Expires=1653868800&Signature=DLLYANtUF5n9RQmWyfGYT2Wt7dKC4aSdly8n40HIL0EHur4rSXvPS5IMlpo14zV6-a-UBOUugcF13TIzdxiw~hUh~fuVXgKWe-dP1i8aeH2GV0SM8xiXVmHuxG7gW525Tq5ArgxUESpmwuronUgnSmNCFWPmTuIfAD1rHiYrjWk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/BF4NCIWfSKKeDQiFn2iiLQ?expiry=1653868800000&hmac=DcwQ48db_ElFDsFnW8vQwpqUGjK1AVQV-fSxYXkA3_8&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "cBhSj",
+                            "name": "Notice for Coursera Learners: Assignment Submission",
+                            "slug": "notice-for-coursera-learners-assignment-submission",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p><strong>Please note: </strong>only verified learners can submit assignments. If you are auditing this course, you will be able to go through the quizzes or assignments, but you will not be able to submit your assignment for a grade. If you wish to have your assignments graded and receive a course certificate, we encourage you to upgrade to the Certified Learner track for this course. Coursera has provided <a href=\"https://learner.coursera.help/hc/en-us/articles/208280146-Pay-for-a-course-or-Specialization\">information about purchasing a certificate</a>, and you can also get help from the <a href=\"https://learner.coursera.help/hc/en-us\">Coursera Help Center.</a></p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "qFnP9",
+                            "name": "Graphical heuristics: Data-ink ratio (Edward Tufte)",
+                            "slug": "graphical-heuristics-data-ink-ratio-edward-tufte",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/PXBEi_0fEeaI9Q7Pym09lA.processed/full/720p/index.mp4?Expires=1653868800&Signature=W8nbb7jsx16Ap8IzOOWxqEpCchOz6lo12fW08Qt8huWpn0jgpWRFj4ORQOYVR7VAz383hO-hry0In9x3R4s7XA99hsOM5S1sqzirhydXzsuL5dh~zkeXKvh7qUovhpwIOhlCzACFVd3VJwusapQWI6BxJCK9WLNTMBbFrroTMzc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/czo1L8B7RPO6NS_Ae8Tzuw?expiry=1653868800000&hmac=Uz727tg3Qy9Xde2g-QDRjvf9u2fwWGVsFWD7xvlWaKc&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "4Zh5I",
+                            "name": "Dark Horse Analytics (Optional)",
+                            "slug": "dark-horse-analytics-optional",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>Feel free to explore Dark Horse's <a href=\"http://www.darkhorseanalytics.com/portfolio-all/\">portfolio</a> and <a href=\"http://www.darkhorseanalytics.com/blog\">blog</a> for interesting and interactive visuals:</p><p><a href=\"http://www.darkhorseanalytics.com/\">http://www.darkhorseanalytics.com/</a></p><p></p><p></p><p></p><p></p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "LCcy7",
+                            "name": "Graphical heuristics: Chart junk (Edward Tufte)",
+                            "slug": "graphical-heuristics-chart-junk-edward-tufte",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/5TCbG_0fEea3FxIaEbBXjA.processed/full/720p/index.mp4?Expires=1653868800&Signature=CM-MPH-1UsG7AfmJKJkj2SOGgLbYnod70xzed5jV~t~U1IjD-Ia16GslSoZgxrpUpaew244McOor5d-6BouKCImKKcablmI8A1FKK6jlz5n571uj1MYTAZBJg~dTaNw5uEEI0DEJLNirTES6wyHtgsQjDNjVRWC6kb8zEqHC3Qw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/RJEc4nJnROaRHOJyZ9Tmbw?expiry=1653868800000&hmac=zZjumxozj6cLKaSO-24_CJYwKjnLYmC4xoMkf1hphfI&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "V2Bxt",
+                            "name": "Useful Junk?: The Effects of Visual Embellishment on Comprehension and Memorability of Charts",
+                            "slug": "useful-junk-the-effects-of-visual-embellishment-on-comprehension-and",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>Bateman, S., Mandryk, R. L., Gutwin, C., Genest, A., McDine, D., &amp; Brooks, C. (2010, April). <a href=\"https://www.researchgate.net/profile/Scott_Bateman/publication/221517808_Useful_Junk_The_effects_of_visual_embellishment_on_comprehension_and_memorability_of_charts/links/0deec5281274548361000000/Useful-Junk-The-effects-of-visual-embellishment-on-comprehension-and-memorability-of-charts.pdf\">Useful Junk?: The Effects of Visual Embellishment on Comprehension and Memorability of Charts.</a> In <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em> (pp. 2573-2582). ACM.</p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "uf0V8",
+                            "name": "Graphical heuristics: Lie Factor and Spark Lines (Edward Tufte)",
+                            "slug": "graphical-heuristics-lie-factor-and-spark-lines-edward-tufte",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/xnFyU_3_EeaREQ7irMqVoA.processed/full/720p/index.mp4?Expires=1653868800&Signature=eCScpvU-vMtHqNneZdA2u9dR0~HYY-my8z1aUlLBom0ZxXtqIe6OqbzDLGATLYA8uN700UQdeREm3ZRMLYFLlg0Z8uX-XGefwlhNkCd1UXdPcZdbFqQX77OfTU1W9ufO3cANyPESx9Vk2gPDjw8hkjBzr56zub7~6dbaXS-YTqs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/iYbn7Hj5QdiG5-x4-WHYNQ?expiry=1653868800000&hmac=Iq1LKUm86W1DODJhmz-YzWklIEmoLfuh4_Kh2W6B_ng&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "GqvPs",
+                            "name": "The Truthful Art (Alberto Cairo)",
+                            "slug": "the-truthful-art-alberto-cairo",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/Z_s6fv0fEeaI9Q7Pym09lA.processed/full/720p/index.mp4?Expires=1653868800&Signature=IO9Vmtc0Ff0zwhjfTcCWvmMXzeWO5PmnQ0RjaI0schp-35OT8BFiPiZoOMICzuFv1SmSY75mVwxKwLGr79Lo3MKruhL7U7eHAlITUmgLbU4371EAaXdlli--dpkpOn2RO8YR9lkJ8xQKQaJbNLfiChRbZNlof2p3MDGx7nYx1yw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/o8YnGkkaRJqGJxpJGnSaZA?expiry=1653868800000&hmac=lOIbQcdEVGNMmR5kUTFotboCyhThAz2qGRs2-p-7QOk&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Lesson",
+                    "id": "4PYn1",
+                    "name": "Assignment 1",
+                    "slug": "assignment-1",
+                    "items": [
+                        {
+                            "type": "Supplement",
+                            "id": "VVBoD",
+                            "name": "Graphics Lies, Misleading Visuals",
+                            "slug": "graphics-lies-misleading-visuals",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>Cairo, A. (2015). <a href=\"https://faculty.ucmerced.edu/jvevea/classes/Spark/readings/Cairo2015_Chapter_GraphicsLiesMisleadingVisuals.pdf\">Graphics lies, misleading visuals</a>. In <em>New Challenges for Data Design </em>(pp. 103-116). Springer London.</p><p></p><p class=\"asset\">BookChapterLIES.pdf</p>",
+                                    "assets": [
+                                        {
+                                            "id": "7yQEXL8gR8ykBFy_ILfMbg",
+                                            "url": "https://d3c33hcgiwev3.cloudfront.net/7yQEXL8gR8ykBFy_ILfMbg_8b3084c2d72342b9bb885f988fca5a27_BookChapterLIES.pdf?Expires=1653868800&Signature=F9NNmu6xdju1skDTD5xZi9UJ50I8ohr2YhZyVMa~B41NYeg37aAQCetJ56Mi8y2VT3UcedRCTl2ZPqwbKNZR5S~~-P2nXiWzvTs7TxQXaoMXbxQRKHoqS-pfgzdzTUJQyNgWEzYk7-uogZZZVq4ZBlwjnchpyIALNzqC6OyAMAs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                            "name": "BookChapterLIES.pdf"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Module",
+            "id": "QNkNo",
+            "name": "Module 2: Basic Charting",
+            "slug": "module-2-basic-charting",
+            "lessons": [
+                {
+                    "type": "Lesson",
+                    "id": "zTPzG",
+                    "name": "Module 2: Basic Charting",
+                    "slug": "module-2-basic-charting",
+                    "items": [
+                        {
+                            "type": "Lecture",
+                            "id": "f5txM",
+                            "name": "Introduction",
+                            "slug": "introduction",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/4zWLUP0bEearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=SgZkQs96TzMqgmjV-gH82HNWog-A4ABjtbsKnlcGfe46WnX1QLSnNQPSy8CiIeJ09W5w~nhtEc~XlZKF6xt3c6BysfrA1kpfrXjds2HobTsGZv-~jzepz-Ajan-JKZRG-i~vR0K78a1arrQyVpXukX3k6BmY3DIOLGzF3CcSW4Y_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/QyxdAFaVSpqsXQBWleqaIw?expiry=1653868800000&hmac=MeaC5sTqlohGvbbj1LF_1mYIeBrE5z1hejqOf-qT1Bc&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "bQ4Ld",
+                            "name": "Matplotlib Architecture",
+                            "slug": "matplotlib-architecture",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/K0bxmP0cEeaeKwpzIn5n7A.processed/full/720p/index.mp4?Expires=1653868800&Signature=SaA-sIJ4Ts5OZn2ZY907s5m2NGGrOVouy3xP1RnLd5WdtybZu7hdlHXTb91IP-ldfU9~W3Ca2faG8r6oMjcp8Qosvvg-ukdYDe9mn5I5O1tvBEcZxJN~vMgF6NSZxYey6CgRnqxtl3MkJihWrywvQlNhF-TNefxLEzSUmM5uNro_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/0cCk598wSBqApOffMHga5Q?expiry=1653868800000&hmac=WI3W2qos1CGSokJRr8g4vkCu_2WD0Gk-O8NvdHwiLog&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "SDHrS",
+                            "name": "Matplotlib",
+                            "slug": "matplotlib",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>Hunter, J., &amp; Droettboom, M. (2012). <a href=\"http://www.aosabook.org/en/matplotlib.html\">matplotlib</a> in A. Brown (Ed.), <em>The Architecture of Open Source Applications, Volume II: Structure, Scale, and a Few More Fearless Hacks</em> (Vol. 2). <a href=\"https://www.lulu.com/\">lulu.com</a></p><p>(<a href=\"https://creativecommons.org/licenses/by/3.0/legalcode\">Licensed under CC</a>)</p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "oNy2r",
+                            "name": "Ten Simple Rules for Better Figures",
+                            "slug": "ten-simple-rules-for-better-figures",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>Rougier et al. share their ten simple rules for drawing better figures, and use matplotlib to provide illustrative examples. As you read this paper, reflect on what you learned in the first module of the course -- principles from Tufte and Cairo -- and consider how you might realize these using matplotlib.</p><p>Rougier NP, Droettboom M, Bourne PE (2014) <a href=\"http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833\">Ten Simple Rules for Better Figures</a>. PLoS Comput Biol 10(9): e1003833. doi:10.1371/journal.pcbi.1003833</p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "sBhj6",
+                            "name": "Basic Plotting with Matplotlib",
+                            "slug": "basic-plotting-with-matplotlib",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/gHvXBv0cEeaI9Q7Pym09lA.processed/full/720p/index.mp4?Expires=1653868800&Signature=YeSVpOcheTVDtURjgtsDBPrRaPaOWHxH~OcJYQuM0AJRWl0sw8ClAdJm3qCArRkj7ZHiP9HLsv96TH0n8hu-HFI4~Jzu5husVYrz9ygcF2eju6DVwRcAQdoHZL~vLGjZMTibBxgrXKyU60dfjFMywN3bUDMo0Gq0VXVxV4vcSLk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/6mc5y3YnRVqnOct2JwVaPQ?expiry=1653868800000&hmac=OhVbI_P8-URaz7dFwS5Qrk-RFBujEIxi56lvXfuQpAg&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "PCaGU",
+                            "name": "Scatterplots",
+                            "slug": "scatterplots",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/xSk2r_0dEearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=NpuiswN35qdnjq-WaNZHnWHdBVpAsOQjDB5Y5rww7HWUPHvsNDCQLc5gB5BgQXM8dfVYLBl~IUpHlOxQMTg7k8huK~BK~nLSupoTfSRsQkK9KJiyQQm1E~alxKLRp1xkdoDaHVGQwQy4OlyOLK6Uo1R-~zYktJvs0Ah03uTRJdM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/qBg_uEosQHWYP7hKLGB1Jg?expiry=1653868800000&hmac=b0r5gzzqMzS3500i-sginsfZRPvnSc153VrXI9PbaGs&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "udxNu",
+                            "name": "Line Plots",
+                            "slug": "line-plots",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/qCEhq_3_EearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=BfQmZydCVWyFY8vTdK0TsNT7j1NrDpD9shFbIe8n2gvHZ28gUjOX9IsG2Qbpsa45tKuxmCTCr07hD8LEHZDr3X7h2qvTT85IMP3vxwB5OgLKVeP~JvvGdMZX-CSxojowsfh1HnkdS0UcnDkxySMCwYGP0fbBSZo~NQLrNlRVBU0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/LtRdCqTCSN2UXQqkwhjdAA?expiry=1653868800000&hmac=XwKwT-GzDRJ04i9M1XNJBBkpaERNSUry47Cs5ftaZZs&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "AC9zC",
+                            "name": "Bar Charts",
+                            "slug": "bar-charts",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/0sxDE_9aEeaREQ7irMqVoA.processed/full/720p/index.mp4?Expires=1653868800&Signature=jIWV8Qch1aKJhnS~Q7tf7WWfYtLfvmSNt0TAx6bLpBz~qDmnYL6hrJ9Xvx9rMFS9hV7d--NN1bzMCLyCSgPMU48zC1xIi8oBq5mlENYPKh3EWfEVq7NmVGzZUnBeDf~IryBLGJc47Ya2PFZIQiHyzkFpe0RYWXWkVs8gudux9xM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/Y4VEGOhXTB6FRBjoVzweoQ?expiry=1653868800000&hmac=wKYc0FycFFMupd8CV1b05a2EMkhzT8swCIto2Gm9r8Y&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "neRSr",
+                            "name": "Dejunkifying a Plot",
+                            "slug": "dejunkifying-a-plot",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/EvKM1f0IEeaI9Q7Pym09lA.processed/full/720p/index.mp4?Expires=1653868800&Signature=F2VXGa3WXCDuSiPmocgdVMUUvf89LIn9dveJILKud8M2LAOjQgXM7PlAnKR8axAMOCRYvgu2OBu09ftC-PqnAplhrjEl~vqsLb3KzlJzIw2pS1018El8XbwX4qam3Oa-GxYfIILWDxnESHYEXE~uwhh0leqbeAxLqdv6PaSeRs4_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/eE7tUdkfQrWO7VHZH-K1oA?expiry=1653868800000&hmac=UE49cODO0OSIjn-aZg6AfTFdaFxWGboelwlhKM94XN8&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Module",
+            "id": "WdpQc",
+            "name": "Module 3: Charting Fundamentals",
+            "slug": "module-3-charting-fundamentals",
+            "lessons": [
+                {
+                    "type": "Lesson",
+                    "id": "SBRAy",
+                    "name": "Module 3: Charting Fundamentals",
+                    "slug": "module-3-charting-fundamentals",
+                    "items": [
+                        {
+                            "type": "Lecture",
+                            "id": "ZXfdv",
+                            "name": "Subplots",
+                            "slug": "subplots",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/XD9_O_0eEeahPwr4NTFsvg.processed/full/720p/index.mp4?Expires=1653868800&Signature=Gfzd6sz37XAalXdjNTerPOEtA4DbF~TKRAqkD8myrqxlToK1YOsTv1m2RJSFRTXD7ESdlEaUUsZ4R1Vs-svSyx5qqI-BexzB~iPlCri2nBoiK0vr9p2zZugMldLeGrY-7X13~r0Q3RfpvuDwFKCouBMzPbY-CtDiW9~P3FIENzY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/AFOigjehRyCTooI3oZcgQA?expiry=1653868800000&hmac=WCS5AG4mmdxLyRxPPlNbvheXvf40JvAFGHRPSechJAw&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "yAzOV",
+                            "name": "Histograms",
+                            "slug": "histograms",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/A8NyMP0gEearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=QpcJWXjwV8EekX0nY7Ym8uiek1F-2TY~ULKHHsvX8D93B9eheAKdxRUIKcdrmHkc1WZ5KtnZ7g1ebc-dwcW~wGoTk9EdRSkioF3lgaz6ECUgpRsUn1BvZqzj9ZhenG~Dj5XksyceZYbfKvtv9qnkXCGkaMGrnZNeNDSWhabv~-c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/IYUJAzB9TRuFCQMwfa0bUA?expiry=1653868800000&hmac=evHYGD5ZMLxmDyUBXFpDPhTSI092ucUzU-KkG4u62gM&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "GlCK8",
+                            "name": "Selecting the Number of Bins in a Histogram: A Decision Theoretic Approach (Optional)",
+                            "slug": "selecting-the-number-of-bins-in-a-histogram-a-decision-theoretic-approach",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>He, K., &amp; Meeden, G. (1997). <a href=\"http://users.stat.umn.edu/~gmeeden/papers/hist.pdf\">Selecting the Number of Bins in a Histogram: A Decision Theoretic Approach</a>.<em> Journal of Statistical Planning and inference</em>, 61(1), 49-59.</p>",
+                                    "assets": []
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "jiPDi",
+                            "name": "Box Plots",
+                            "slug": "box-plots",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/JHejcf0gEearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=Y0bxaUUCGx9UtfscxRvgOrJtjeE36Dk4Pgj-ViTJixbVnjg-iJ7~CskMS0nSMh9tqex9VaewIJ3MpwhMJVSN1rR--GePKlQ7COaq~A2U7lQ3kmpaLLXCOdTb6qWH1~izJ9w2kVTTRtatpf9T5mfPAVqQR5sM8NR9DauzywL5Nuo_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/j8McpjBvQWeDHKYwb5FnRQ?expiry=1653868800000&hmac=iBMFAOJCkTTqbYxD1mOeMh_33uxhROECgdb5v7cdhGM&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "C0wRQ",
+                            "name": "Heatmaps",
+                            "slug": "heatmaps",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/Opdlk_0gEeaI9Q7Pym09lA.processed/full/720p/index.mp4?Expires=1653868800&Signature=Ub-FkHfUzukENWc~VLdcU58XcwhpB1yzzMFPbIWY9X6ck6KtvvoSwOJ6Bo-XPEuX2~Gcrid6v4UShzUlyjodcgL1u8~8aAi5sm20Dq4by-HBXclEwkPUbQuh4kfUVtyjVYQ61JnIDLt-2fHzNCGkJPA-4yWMpxY9C7bGtEvUrMA_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/7XUqR2qiQ_S1KkdqogP07g?expiry=1653868800000&hmac=zu8tSayluYf-30ayfuYZigU9WY4ckzWbQxv711h92Wg&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "WoeKp",
+                            "name": "Animation",
+                            "slug": "animation",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/d1tGBf0gEearIRLZY_MkaA.processed/full/720p/index.mp4?Expires=1653868800&Signature=THg5ys8adZOGbf3Wg40bbSFteJrml2He75FHdawa7qfWXSg1LgITWSZMzkCGyXHgtXlxuTFZLBpQ0ebLK19BUlvUwxy5NwRq1jjUvk764Nbzk5DeyqQWly39fT7PDXRmZmN0iAOgMlBuF0GoPcMzIJvgTyHYYvlU2QXPGtST~s0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/wuuSFp4ARc2rkhaeAPXN0Q?expiry=1653868800000&hmac=U1595maLij6Xk7UEbdhUWSP-DTsFr5D2whPesMcee_Q&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "W2YBx",
+                            "name": "Interactivity",
+                            "slug": "interactivity",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/nB-oRv0gEeaREQ7irMqVoA.processed/full/720p/index.mp4?Expires=1653868800&Signature=frOLXb~wVfYTU4d5A9TvMYgN2Zc0VI836OW8hZRkXObgQ06pMp6p4koHd~HAyI57kcPnMYdR0HS8UHRdouLK6yooMFPWrWDTq2RgLhzXqjcqmh9GRodRVg2K5KhvqmRqUt9FKlUTw9rAs5UMvLc7wHQtc8q9bbRpC4LebfwBneQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/yrxMNC5UR2K8TDQuVAdinQ?expiry=1653868800000&hmac=nXbR2xOqfIy2y7fc7EPT9Dds3qB3Imfo7o6GYvrEW9c&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        }
+                    ]
+                },
+                {
+                    "type": "Lesson",
+                    "id": "GdTnq",
+                    "name": "Assignment 3",
+                    "slug": "assignment-3",
+                    "items": [
+                        {
+                            "type": "Supplement",
+                            "id": "KoLQ1",
+                            "name": "Assignment Reading",
+                            "slug": "assignment-reading",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>Ferreira, N., Fisher, D., &amp; Konig, A. C. (2014, April). <a href=\"https://drive.google.com/file/d/0B7Tj31nhk4BAeFJ1Y1lwQmpMQVk/view?usp=sharing&amp;resourcekey=0-hCaxE9mDZ1GaHuEW0DBvEQ\">Sample-oriented task-driven visualizations: allowing users to make better, more confident decisions</a>. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 571-580). ACM </p><p>The authors have provided a <a href=\"https://www.youtube.com/watch?v=BI7GAs-va-Q\">related video</a> which may be of further value in explaining the research.</p><p>This reading is also available for download as a PDF below:</p><p class=\"asset\">p571-ferreira.pdf</p>",
+                                    "assets": [
+                                        {
+                                            "id": "iD7z6T78Sh6-8-k-_HoeTw",
+                                            "url": "https://d3c33hcgiwev3.cloudfront.net/iD7z6T78Sh6-8-k-_HoeTw_626a864194b0451cac6aee7ac0959ff1_p571-ferreira.pdf?Expires=1653868800&Signature=iWipyHPFIbi9aCdF0~qeCSvdXaC11lnYLiTlkmAoBshxv16UhxyFRR7Brp7lC5GM01sSHq96D7QWSqu874Nt9XwpyqZN43eoDCXhk080zXhcm3KDqM-TPNl18IXCs1lKaMOvZCB0L-siByWaWR~Av9nZX098AnMPRmlbcRCApKU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                            "name": "p571-ferreira.pdf"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "kRuAj",
+                            "name": "Understanding Error Bars",
+                            "slug": "understanding-error-bars",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>A common error that learners run into with the week 3 assignment is looking at the <em>error bars of the data</em> rather than the <em>error bars of the means of the data</em>. These are very different, as the standard deviation of the means involves taking the square root of the number of samples.</p><p>This reading is intended to clarify the process required for assignment 3, with the demonstration based on the 1992 portion of the following data; we will create 1000 samples with a set random seed for reproducibility.\u00a0  </p><pre><code language=\"python\">import pandas as pd\nimport numpy as np\n\ndf = pd.DataFrame([np.random.normal(32000,200000,3650), \n                   np.random.normal(43000,100000,3650), \n                   np.random.normal(43500,140000,3650), \n                   np.random.normal(48000,70000,3650)], \n                  index=[1992,1993,1994,1995])\n                  \n# Let's do the random sampling 1000 times\nnp.random.seed(12345)\ndf_means = pd.DataFrame({'means':[np.random.normal(32000,200000,3650).mean() for i in range(1000)]})\ndf_means.head()\n\n#means head ouput:\n0\t33312.107476\n1\t29723.719082\n2\t26276.149916\n3\t31267.288484\n4\t31121.673831</code></pre><p>Using the 1000 samples of means, we will now compute the standard deviation.</p><pre><code language=\"python\">df_means.std(axis=0)\n\n#std output:\nmeans    3414.816232\ndtype: float64</code></pre><p>This standard deviation is that of the means (also known as the standard error), and is the standard deviation used for the error bars. Note that this is not the standard deviation of the data.  </p><p>The formula for calculating standard error is as follows (<a href=\"https://en.wikipedia.org/wiki/Standard_error\">see this Wikipedia article for more</a>):</p><img alt=\"9c0abe24f2918d90f1c93b7e7178995c61806122.svg\" src=\"9c0abe24f2918d90f1c93b7e7178995c61806122.svg\"></img><p>Using the above formula, we can calculate the standard error as follows:</p><pre><code language=\"python\"># data standard deviation: 200000\n# sample size: 3650\nimport math\n200000 / math.sqrt(3650)\n\n#output:\n3310.4235544094718</code></pre>",
+                                    "assets": [
+                                        {
+                                            "id": "MEAKFczoSc-AChXM6LnP1A",
+                                            "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/MEAKFczoSc-AChXM6LnP1A_f5e1682a20cc4a148e7bbfaae0350379_9c0abe24f2918d90f1c93b7e7178995c61806122.svg?expiry=1653868800000&hmac=R58VtKG9mjoekAwNul2nLdwenKvrI3qP9v43MTAqxXo",
+                                            "name": "9c0abe24f2918d90f1c93b7e7178995c61806122.svg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Module",
+            "id": "BQNFb",
+            "name": "Module 4: Applied Visualizations",
+            "slug": "module-4-applied-visualizations",
+            "lessons": [
+                {
+                    "type": "Lesson",
+                    "id": "15Bgf",
+                    "name": "Module 4: Applied Visualizations",
+                    "slug": "module-4-applied-visualizations",
+                    "items": [
+                        {
+                            "type": "Lecture",
+                            "id": "e7o5K",
+                            "name": "Plotting with Pandas",
+                            "slug": "plotting-with-pandas",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/R2quYemDEea5-BKh39zqpA.processed/full/720p/index.mp4?Expires=1653868800&Signature=MQuezSoxDU9u7cm8L7kXv8b83xM3eHf5u1nrdRkbgWMFGgZ5SLWC7ve4SISEyD3eHgNyqV6nGNgJNctHkrfuiVp7ElpcMwUqd7xRtxpJ7oStTVPHp8K1eqlRCFALbj5wWiVGTRafF4DLR879R9rrKzo-4~a~zkGc7hiz6UJaXCc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/9JJGrwVXEeeV3hJc8Gq29A?expiry=1653868800000&hmac=doLenHG8Kb58WAGUR4LmLdzqPcgPwv6GtuNXhCBVA60&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Lecture",
+                            "id": "FnAul",
+                            "name": "Seaborn",
+                            "slug": "seaborn",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/Col2oemCEea0PA6g5Mr3FA.processed/full/720p/index.mp4?Expires=1653868800&Signature=HO3iG-jGaGg4uETeeDXYwGGlidHfRlT-FGK79BJJeXcz8IVEZnFLLiciviPhDjmlQAPHFO17ozsdnudgzeQ5AZ~pQo-g3HBiujPiSziCKf1vxQNIlBXo7pH91Cm6TVKKq4FXX2JxtbeRXpEIQXEg5wcwBdEa2m8yzpJKyDHsNqE_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/v0xZ4ehxTQCMWeHocZ0Axw?expiry=1653868800000&hmac=bYV6MsVuo354hN5VacoKYsVEckeSq_IerEkI0n1LsmI&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "2UUq6",
+                            "name": "Spurious Correlations",
+                            "slug": "spurious-correlations",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>If you look long enough you'll find correlations all over! A spurious correlation is a correlation that happens from chance alone, and these correlations are one of the reasons scientists use statistics with confidence levels (p-values or confidence intervals) and/or limit their searching to theoretically grounded effects (e.g. pre-registration of hypotheses).</p><p>The <a href=\"http://www.tylervigen.com/spurious-correlations\">spurious correlations</a> website lists a number of correlations which exist but seem unlikely to be causally related to one another. Do you see any in this list which you think are not spurious, and may have a causal relationship? Discuss in the forums, and provide links as appropriate.</p>",
+                                    "assets": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Lesson",
+                    "id": "hKADb",
+                    "name": "Project",
+                    "slug": "project",
+                    "items": [
+                        {
+                            "type": "Lecture",
+                            "id": "4ZRSU",
+                            "name": "Becoming an Independent Data Scientist",
+                            "slug": "becoming-an-independent-data-scientist",
+                            "videos": [
+                                {
+                                    "url_video": "https://d3c33hcgiwev3.cloudfront.net/pJlsSONsEeaTbQ4K5ehm4A.processed/full/720p/index.mp4?Expires=1653868800&Signature=Fp1kl7n8QZVAYtjJI6qnE-Pbpy~3sw36Ch9XumoDaktKY6lmqOiEiOtkM2zARH4ZcrnebbpU2v47KIbEpL9JwMG~Pi3Q-vrQyhClMUhGq2YqvcgZdiVSGHhrsaWYCl-3F8xexO3BaEOIeY7JGfRyeodaLdz10ZwIcY4IkwrvnEI_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                                    "url_subtitle": "https://www.coursera.org/api/subtitleAssetProxy.v1/KFd16XGwRiKXdelxsKYiYw?expiry=1653868800000&hmac=P8N0FQUGJA-lgXjATh0lzbDwIYmphy1_TDiI_a1RLnY&fileExtension=srt"
+                                }
+                            ],
+                            "assets": []
+                        },
+                        {
+                            "type": "Supplement",
+                            "id": "V4p9r",
+                            "name": "Post-course Survey",
+                            "slug": "post-course-survey",
+                            "items": [
+                                {
+                                    "type": "CML",
+                                    "html": "<p>We are very interested in strengthening and improving our online learning experiences. We would love to get your feedback on this course to help us identify what we're doing right and what could use improvement. Please participate by taking our short survey at the link below:</p><p><a href=\"https://umich.qualtrics.com/SE/?SID=SV_42Yeg1DD8xQf7E1&amp;phoenix_session_user_id=ee5c58150ef58d8152b3f83b7d141131a81c5738&amp;name=%NAME%&amp;platform_id=coursera_phoenix&amp;course_id=python-plotting\">Go to survey</a>.</p><p>Thank you for participating!</p>",
+                                    "assets": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "CourseReference",
+            "id": "BGwcX",
+            "name": "Jupyter Notebook FAQ",
+            "slug": "jupyter-notebook-faq",
+            "item": {
+                "type": "CML",
+                "html": "<h1>Current Questions</h1><ol type=\"1\"><li><p>Which version of python is this course in?</p></li><li><p>How do I download and install the Jupyter Notebook system for offline use?</p></li><li><p>How do I download notebooks and data files?</p></li><li><p>How can I upload a notebook to the Coursera notebook environment?</p></li><li><p>How do I reset my notebook?</p></li><li><p>How do I get the latest version of the assignment notebooks?</p></li><li><p>How do I troubleshoot notebook errors?</p></li></ol><h1>Current Answers</h1><h2>1. Which version of python is this course in?</h2><p>This course is in python 3.6.</p><h2>2. How do I download and install the Jupyter Notebook system for offline use?</h2><p>To install the Jupyter Notebook system on your own machine, we recommend downloading <a href=\"https://www.anaconda.com/products/individual\">Anaconda Individual Edition</a>. This will allow you to work on any personal data science projects outside of the Coursera Jupyter Notebooks. Anaconda is a distribution containing Python, the Conda package and environment manager, and many software packages for data science. We recommend installing the Python 3 version, as that is the version we will be using in this course. Once Anaconda is downloaded, you can access the Jupyter Notebooks through the Anaconda Navigator. For more information on downloading Anaconda, visit the <a href=\"https://docs.continuum.io/anaconda/install\">Install Documentation</a>.</p><h2>3. How do I download notebooks and data files?</h2><p>To download the notebook files manually from within the Coursera Jupyter platform, navigate to the file directory by selecting <em>File</em> &gt; <em>Open...</em></p><img alt=\"Screen Shot 2016-10-18 at 11.54.32 AM.png\" src=\"Screen%20Shot%202016-10-18%20at%2011.54.32%20AM.png\"></img><p>Then select the file that you would like to download...</p><img alt=\"Screen Shot 2016-10-18 at 2.16.41 PM.png\" src=\"Screen%20Shot%202016-10-18%20at%202.16.41%20PM.png\"></img><p>And select <em>File</em> &gt; <em>Download</em>.</p><img alt=\"Screen Shot 2016-10-18 at 12.00.42 PM.png\" src=\"Screen%20Shot%202016-10-18%20at%2012.00.42%20PM.png\"></img><p>For notebooks, download them by selecting <em>File</em> &gt; <em>Download as</em> &gt; <em>Notebook (.ipynb)</em>.</p><img alt=\"Screen Shot 2016-10-18 at 2.25.59 PM.png\" src=\"Screen%20Shot%202016-10-18%20at%202.25.59%20PM.png\"></img><h2>4. How can I upload a notebook to the Coursera notebook environment?</h2><p>To upload a notebook to the Coursera notebook environment, first navigate to the Coursera notebook directory (see FAQ #3). Next, click Upload in the top right corner and select the notebook you want to upload. </p><img alt=\"Screen Shot 2017-02-06 at 10.27.55 AM.png\" src=\"Screen%20Shot%202017-02-06%20at%2010.27.55%20AM.png\"></img><h2>5. How do I reset my notebook?</h2><p>To clear all the output and saved variables from the notebook, select <em>Kernel</em> &gt; <em>Restart &amp; Clear Output</em>.</p><img alt=\"Screen Shot 2016-10-18 at 2.41.06 PM.png\" src=\"Screen%20Shot%202016-10-18%20at%202.41.06%20PM.png\"></img><p></p><p><strong>(Note: The following explains how to replace your notebook with a fresh new version. Because the files are overwritten with the new versions, you will lose any of your work! Be sure to download your notebooks if you want to keep the content!)</strong></p><p>If you wish to replace a notebook with a fresh new version, you can follow the following steps:</p><ul><li><p>From File -&gt; Open, select the notebook file and either rename or delete it</p></li><li><p>Select Help at the top right corner</p></li><li><p>Select Get latest version and either then Cancel or Update lab. </p></li><li><p>If the notebook is currently running, shown as a green icon, tick the file select box, then select Shutdown prior to renaming or deleting the file.</p></li></ul><p>Your directory will be populated with the newest versions of any files you deleted prior to this process.</p><p>Additionally, you can reference the following documentation for <a href=\"https://learner.coursera.help/hc/en-us/articles/360044758731-Solving-common-issues-with-Coursera-Labs\">Solving common issues with Coursera Labs.</a></p><h2>6. How do I get the latest version of the assignment notebooks?</h2><p>In addition to the process for getting the newest versions outlined in <em>How do I reset my notebook?</em>, all the newest versions of the notebooks are available in the <em>readonly</em> folder in the Coursera notebook directory. To access the notebook directory from a Coursera notebook, select <em>File</em> &gt; <em>Open</em>... Then navigate to the <em>readonly</em> folder.</p><h2>7. How do I troubleshoot notebook errors?</h2><ol type=\"1\"><li><p>Try restarting the kernel by choosing Kernel &gt; Restart &amp; Clear Output</p></li><li><p>Do not access files outside of the local filesystem - the autograder has no internet access.</p></li></ol><p></p><p></p>",
+                "assets": [
+                    {
+                        "id": "HfRWrJVgEearQg4tHxRZaA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/HfRWrJVgEearQg4tHxRZaA_63c3f7e56fe0fdf1a5dbbbd76e1a6cdf_Screen-Shot-2016-10-18-at-12.00.42-PM.png?expiry=1653868800000&hmac=_l9VeFpHrLrjsI5uHgP7G812-KtrbbCq76iH6GXGSeY",
+                        "name": "Screen Shot 2016-10-18 at 12.00.42 PM.png"
+                    },
+                    {
+                        "id": "yaBbMpVfEeaRtAqhdPgDFA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yaBbMpVfEeaRtAqhdPgDFA_a7bb9a1fc1cd10d28ecb76ea435d6f1f_Screen-Shot-2016-10-18-at-11.54.32-AM.png?expiry=1653868800000&hmac=punGlmCYGSt5Q9A-9GKYXPgh8_E8E_vm564ztLeJrak",
+                        "name": "Screen Shot 2016-10-18 at 11.54.32 AM.png"
+                    },
+                    {
+                        "id": "nh6TteyIEeaFxQpQ6SOOpA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/nh6TteyIEeaFxQpQ6SOOpA_7dd05a24594dd81d888accafdb8fa001_Screen-Shot-2017-02-06-at-10.27.55-AM.png?expiry=1653868800000&hmac=HZ3j0PVJJPehPMXPjYeyWR776Imz2mPRV_Cij5iqibo",
+                        "name": "Screen Shot 2017-02-06 at 10.27.55 AM.png"
+                    },
+                    {
+                        "id": "iQwSDpVfEea3KhIAewBBkg",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iQwSDpVfEea3KhIAewBBkg_3a936ff741979fa42c80d1828183eb43_Screen-Shot-2016-10-18-at-2.16.41-PM.png?expiry=1653868800000&hmac=VdN-d1oFkjWLMO4dV5d-PiLAVVL2H37FJ2WFghv3fZQ",
+                        "name": "Screen Shot 2016-10-18 at 2.16.41 PM.png"
+                    },
+                    {
+                        "id": "hO-Z_JVhEeaUSArAHh3eJg",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/hO-Z_JVhEeaUSArAHh3eJg_140f3c972d910be4c8221860cce7300f_Screen-Shot-2016-10-18-at-2.25.59-PM.png?expiry=1653868800000&hmac=GE2Kf_emBAUZsal2WVPfVHVhiuHisS5tkSpDd1gN1C8",
+                        "name": "Screen Shot 2016-10-18 at 2.25.59 PM.png"
+                    },
+                    {
+                        "id": "j0GzzpViEeaMxg7c63DFRg",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/j0GzzpViEeaMxg7c63DFRg_6bacb3a0f40cfd924a69e3d30fbf47e6_Screen-Shot-2016-10-18-at-2.41.06-PM.png?expiry=1653868800000&hmac=F8IsSKVpKBqoHfTqilVGj7oPd_M66zfkeLm8n4DbPwA",
+                        "name": "Screen Shot 2016-10-18 at 2.41.06 PM.png"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "CourseReference",
+            "id": "PH7Se",
+            "name": "Additional Python Resources",
+            "slug": "additional-python-resources",
+            "item": {
+                "type": "CML",
+                "html": "<h3>Dr Chuck Severance's Coursera Specialization, <a href=\"https://www.coursera.org/specializations/python\">Python for Everybody</a></h3><h3><a href=\"https://docs.python.org/3/\">Python Docs</a> (for general Python documentation)</h3><h3><a href=\"https://docs.python.org/3.6/tutorial/classes.html\">Python Classes Docs</a></h3><h3><a href=\"http://scipy.org/\">Scipy</a> (for <a href=\"http://ipython.org/\">IPython</a>, <a href=\"http://www.numpy.org/\">Numpy</a>, <a href=\"http://pandas.pydata.org/\">Pandas</a>, and <a href=\"http://matplotlib.org/\">Matplotlib</a>)</h3><h3>Don't forget to check <a href=\"http://stackoverflow.com/questions/tagged/pandas\">Stack Overflow</a>!</h3><p></p>",
+                "assets": []
+            }
+        },
+        {
+            "type": "CourseReference",
+            "id": "ASL0g",
+            "name": "Course Slides",
+            "slug": "course-slides",
+            "item": {
+                "type": "CML",
+                "html": "<h2>PDFs</h2><p>Week 1:</p><p class=\"asset\">Week1_Slides_Final.pdf</p><p>Week 2:</p><p class=\"asset\">Week2_Slides_Final.pdf</p><p>Week 3:</p><p class=\"asset\">Week3_Slides_Final.pdf</p><p></p><h2>PPTs </h2><p>Week 1:</p><p class=\"asset\">Week1Slides.pptx</p><p>Week 2:</p><p class=\"asset\">Week2_Basic Charting.pptx</p><p>Week 3:</p><p class=\"asset\">Week3Slides.pptx</p><p></p>",
+                "assets": [
+                    {
+                        "id": "TKpM0SBJEeeOOw5aDxT8AA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_6a53025f8271cd5d9efb5f66c1e43012_Week3Slides.pptx?Expires=1653868800&Signature=TCHNbRUXEB1bHy74KvrvRcjk0VwC6DWXgsQbiYDJ7CTWGyhgHvWb~wLVUUloQPRAPPeXymhXpQnD4lq3jr9v1v5uTWYQeFN-pWIqe9iHnBOONzM8C9F5S5yi5-zPj-xKBVoGvamDBoyanPAoooSNtcEHFz0U8ely5MfcmmFSD~w_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week3Slides.pptx"
+                    },
+                    {
+                        "id": "YsEXQwM5EeeTbQoJ25gIQA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_e436ee9bd2d46e8984e22d4ebdf9e118_Week2_Slides_Final.pdf?Expires=1653868800&Signature=f~S3JYTESAAczuMx98wUnimS1O2o2VXOm4g3PO9zhHHMccCibq44gUJBhZTFemlwawoQD-aFsZzsp8U2645X6~FVORtnx~dIH4kb9ciLFDelKoa1~lwdfA39h-QpMC~Ug~lKKEMmdP0HVHButqqUo-kQZmYUJvYILF7PHi7t6Is_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week2_Slides_Final.pdf"
+                    },
+                    {
+                        "id": "Yr5_JQM5EeeYWw5zOwq06A",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_e436ee9bd2d46e8984e22d4ebdf9e118_Week3_Slides_Final.pdf?Expires=1653868800&Signature=I0TrUMogqDbTdNzjoyybQbapy9B2kxLpWNhtPoqHd8-GRsQvU4oJS2hneZz-Ku521gjtV6e4ch0WwkM13C2CQMsomf-9OVfcYr7ra5yAxvGEwNYUJyTfZYPz-70ConEpZLHYsLMfuWY8BRomXMOIKg~WfDcPgm~cPyQJiy4wfsU_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week3_Slides_Final.pdf"
+                    },
+                    {
+                        "id": "MEiO5wM5Eee0jBLgCNmuOA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_ba19cc4af40c430ff8768951de10543c_Week1_Slides_Final.pdf?Expires=1653868800&Signature=GKgk1t3tF9mscnGppY-B5PA3CqXR-aRsF6Gqm5eT0cgfgMOda0t9XfsLkIyT~EjrJBuNzO6fl6E1-odwee2mF7iW5s9seD5TZ9N0B6CDhtwKC7OVZ06lIBhBD-IpXF~RG-5YYIbRBcQ9dBFSoC8zL7xWgQVFuqVWuNoN3FAwnaQ_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week1_Slides_Final.pdf"
+                    },
+                    {
+                        "id": "TKxJFSBJEeeAewpvFh_yEg",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_6a53025f8271cd5d9efb5f66c1e43012_Week1Slides.pptx?Expires=1653868800&Signature=JG-3qZfLty8oqWvSOj79KHuRuKHOQXandEQqWenb6SR~HRZD77d8G~d2RQ4rex67k3rAKV1p4ciqSXlBlxQBMUhFJsw~Bl9hrxrSXpiORe7aLwiEfSCiLF4YpyKWEPULOCJDYjX2AVJifPoXpERRvXJyoVe6Lnwpag6xxrn0qE0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week1Slides.pptx"
+                    },
+                    {
+                        "id": "a4VqFZltEeeFehLwLvDndg",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_3cdb4495a764b729318947ef25c3743d_Week2_Basic-Charting.pptx?Expires=1653868800&Signature=j4ycp84TAS7~w-~doudgm0DL4lY-y93aeu18EH5iFbIsvf7E8qJZlWFswYzUgQ8hwfazcnjUvC1dpN8WuD6IOSOHBpL7w8vtj3UoEyxkCBv1h7aQDSqLaV0~7xNKPcMfwiCrTBeX-fJPk8clrR6uglC0qvnyAso~HwTixbPetzs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week2_Basic Charting.pptx"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "CourseReference",
+            "id": "Ywg77",
+            "name": "Acknowledgements & Credits",
+            "slug": "acknowledgements-credits",
+            "item": {
+                "type": "CML",
+                "html": "<p><strong>Week 1</strong></p><p>Bateman, S.,\nMandryk, R. L., Gutwin, C., Genest, A., McDine, D., &amp; Brooks, C. (2010,\nApril). <a href=\"https://www.researchgate.net/profile/Scott_Bateman/publication/221517808_Useful_Junk_The_effects_of_visual_embellishment_on_comprehension_and_memorability_of_charts/links/0deec5281274548361000000/Useful-Junk-The-effects-of-visual-embellishment-on-comprehension-and-memorability-of-charts.pdf\">Useful Junk?: The Effects of\nVisual Embellishment on Comprehension and Memorability of Charts.</a> In <em>Proceedings\nof the SIGCHI Conference on Human Factors in Computing Systems</em> (pp.\n2573-2582). ACM.</p><p>Cairo, A. (2013). <em>The\nfunctional art: An introduction to information graphics and visualization</em>.\nBerkley, CA: New Riders.</p><p>Cairo,\nA. (2013). <em>The truthful art: Data charts and maps for communication</em>.\nBerkley, CA: New Riders.</p><p>Cairo, A. (2015).<em> </em><a href=\"https://faculty.ucmerced.edu/jvevea/classes/Spark/readings/Cairo2015_Chapter_GraphicsLiesMisleadingVisuals.pdf\"><em>Graphics lies, misleading visuals</em></a>. In <em>New\nChallenges for Data Design </em>(pp. 103-116). Springer London.\nRetrieved February 17, 2017.</p><p>\u201cCharles Minard's map of Napoleon's disastrous Russian campaign of\n1812.\u201d Retrieved February 17, 2017 <a href=\"https://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png\">https://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png</a></p><p>Dark Horse Analytics. Retrieved February\n17, 2017, from <a href=\"http://www.darkhorseanalytics.com/\">http://www.darkhorseanalytics.com/</a></p><p>\u201cDiamonds Were a Girl\u2019s Best Friend\u201d | Nigel Holmes in \u201cA Gem That\nLost Its Luster,\u201d Time 120, no. 9 (August 30, 1982) Retrieved February 17, 2017\nfrom <a href=\"http://visualoop.com/media/2015/03/Diamonds-Were-a-Girls-Best-Friend.jpg\">http://visualoop.com/media/2015/03/Diamonds-Were-a-Girls-Best-Friend.jpg</a></p><p>Google\nFinance. Retrieved February 17, 2017 from\n<a href=\"https://www.google.com/finance?ei=L0IyWJmeHdrEjAGluK24DA#stockscreener\">https://www.google.com/finance?ei=L0IyWJmeHdrEjAGluK24DA#stockscreener </a></p><p>Ho, A. D., Reich, J., Nesterko,\nS., Seaton, D. T., Mullaney, T., Waldo, J., &amp; Chuang, I. (2014). HarvardX\nand MITx: The first year of open online courses (HarvardX and MITx Working\nPaper No. 1). Retrieved February 17, 2017 from <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2381263\">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2381263</a> for digital copy. (Figure 13, p 31)</p><p>Tufte,\nE. R. (1985). <em>The Visual Display of Quantitative Information</em>. Cheshire,\nCT: Graphics Press.\n</p><p>Twitter.\nRetrieved February 17, 2017 from twitter.com</p><p></p><p><strong>Week 2</strong></p><p>Hunter, J.,\n&amp; Droettboom, M. (2012). <a href=\"http://www.aosabook.org/en/matplotlib.html\">matplotlib</a> in A. Brown (Ed.), <em>The Architecture of Open Source Applications, Volume II:\nStructure, Scale, and a Few More Fearless Hacks</em> (Vol. 2). <a href=\"https://www.lulu.com/\">lulu.com</a>  (<a href=\"https://creativecommons.org/licenses/by/3.0/legalcode\">Licensed under CC</a>)</p><p>Rougier NP,\nDroettboom M, Bourne PE (2014) <a href=\"http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833\">Ten Simple Rules for Better Figures</a>. PLoS Comput Biol 10(9):\ne1003833. doi:10.1371/journal.pcbi.1003833</p><p> </p><p><strong>Week 3</strong></p><p>Australian\nTransport Safety Bureau (2015). <em>MH370 \u2013\nDefinition of Underwater Search Areas</em> (Report). Retrieved February 17, 2017\nfrom <a href=\"https://en.wikipedia.org/wiki/Heat_map#/media/File:MH370_location_probability_heat_map_per_DST_Group_analysis.jpg\">https://en.wikipedia.org/wiki/Heat_map#/media/File:MH370_location_probability_heat_map_per_DST_Group_analysis.jpg</a></p><p>He, K., &amp;\nMeeden, G. (1997). <a href=\"http://users.stat.umn.edu/~gmeeden/papers/hist.pdf\">Selecting the Number of Bins in a Histogram: A Decision Theoretic\nApproach</a>.<em> Journal of\nStatistical Planning and Inference</em>, 61(1), 49-59.</p><p>Ferreira, N.,\nFisher, D., &amp; Konig, A. C. (2014, April). <a href=\"https://drive.google.com/file/d/0B7Tj31nhk4BAeFJ1Y1lwQmpMQVk/view\">Sample-oriented task-driven\nvisualizations: allowing users to make better, more confident decisions</a>.<em> In Proceedings of the\nSIGCHI Conference on Human Factors in Computing Systems</em> (pp. 571-580). ACM.</p><p>\u201cSample-Oriented Task-Drive\nVisualizations: Allowing Users to Make Better, More Confident Decision.\u201d\nRetrieved February 17, 2017 from <a href=\"https://www.youtube.com/watch?v=BI7GAs-va-Q\">https://www.youtube.com/watch?v=BI7GAs-va-Q</a></p><p> </p><p><strong>Week 4</strong></p><p>Spurious Correlations. Retrieved\nfrom February 17, 2017 from <a href=\"http://www.tylervigen.com/spurious-correlations\">http://www.tylervigen.com/spurious-correlations</a></p><p></p><p>This course was originally launched on 3/6/2017.</p>",
+                "assets": []
+            }
+        },
+        {
+            "type": "CourseReference",
+            "id": "oZAvZ",
+            "name": "Code Sharing Policy",
+            "slug": "code-sharing-policy",
+            "item": {
+                "type": "CML",
+                "html": "<p>Coursera\u2019s Honor Code states:</p><p><em>You may not share your solutions to homework, quizzes, or exams with anyone else unless explicitly permitted by the instructor. This includes anything written by you, as well as any official solutions provided by the course staff.</em></p><p>So, If you would like to use an assignment Notebook/solution as part of your portfolio, you need to observe the following</p><ul><li><p>Avoid specifying the course and assignment name</p></li><li><p>Avoid uploading the code to non-password protected remote version control sites like github and bitbucket.</p></li><li><p>Provide images of the code rather than text</p></li></ul><p>You can provide more detailed code at the request of the interviewer.</p>",
+                "assets": []
+            }
+        },
+        {
+            "type": "CourseReference",
+            "id": "c1Cwt",
+            "name": "Accessible HTML Slides",
+            "slug": "accessible-html-slides",
+            "item": {
+                "type": "CML",
+                "html": "<p>Accessible HTML slides can be found below:</p><p class=\"asset\">Week 1_Principles of Information Visualization.html</p><p class=\"asset\">Week 2_Basic Charting.html</p><p class=\"asset\">Week 3_Charting Fundamentals.html</p><p></p>",
+                "assets": [
+                    {
+                        "id": "qTF5xoaKEeeH2wpiyfKlxA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_c9b936b807a51821d67b575b9625dfbb_Week-1_Principles-of-Information-Visualization.html?Expires=1653868800&Signature=JtvC9VPmQj~GR6POJ1J21apbknisrxwWjHOD0MD-Hz54J~jMZFUpMhH4Od3nnPqszZxwq0QQQ8B189xO6UMn78iWpbVUaqtvenqmNiYcygRCBpjZEiW~nYLRD5XIOo19tRXko6cBRWu~UUVDUGhBZ7o4DwSVlQr-oBQklS96Lmc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week 1_Principles of Information Visualization.html"
+                    },
+                    {
+                        "id": "SUCG0ZltEeeY1g4tR48qSA",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_877d8dc555819e0f9b6e9f608c6a15e0_Week-2_Basic-Charting.html?Expires=1653868800&Signature=MIzMK0r4R83RydFY-E45RzQoK4yTOHurXKu73SmuolZgW0lhzm72~5FPeiGgNFgOFooRrTJmyX~Q4PKoGpCM4YVq4qzpsrJM30frhdmZLDqK4ZAufEYbrhMTs94~V151OPUqPS6IXkJPDK2VF2UGifh0J5KD8lJv1gAEboztclg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week 2_Basic Charting.html"
+                    },
+                    {
+                        "id": "qTIVd4aKEeeIwBLXIozOjg",
+                        "url": "https://d3c33hcgiwev3.cloudfront.net/_c9b936b807a51821d67b575b9625dfbb_Week-3_Charting-Fundamentals.html?Expires=1653868800&Signature=C2e0co9~r--zuWtzlR6x9-JtRC0aCRNlVSE-Q-KkQjUuaoAYO17BHEZcLzgF1DBGzO8qolJXYSh2EPQbpu7xmxV-GUyZFaLURlRJ1L~O7pORRur7fWNXU3vVMOFioauYzsSg6YfXreoHhxOVyiK0rfQxFwQ9LGk0enpfx1afshc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A",
+                        "name": "Week 3_Charting Fundamentals.html"
+                    }
+                ]
+            }
+        }
+    ]
+}

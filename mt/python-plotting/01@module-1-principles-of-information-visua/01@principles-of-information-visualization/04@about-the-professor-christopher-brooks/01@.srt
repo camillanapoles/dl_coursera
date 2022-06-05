@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:05,529
+[MUSIC]
+
+2
+00:00:05,529 --> 00:00:10,410
+I'm Chris Brooks, I'm a research assistant
+professor at the School of Information.
+
+3
+00:00:10,410 --> 00:00:12,400
+I'm director of learning analytics and
+
+4
+00:00:12,400 --> 00:00:15,430
+research at the office
+of academic innovation.
+
+5
+00:00:15,430 --> 00:00:18,600
+I'm a computer scientist who studies
+e-learning, student achievements,
+
+6
+00:00:18,600 --> 00:00:23,540
+student success, both at higher and
+online in situations like in MOOCs.
+
+7
+00:00:23,540 --> 00:00:26,620
+One thing I remember as a child
+my father was a physicist and so
+
+8
+00:00:26,620 --> 00:00:30,590
+I would go to the university as many
+kids do and my kids do now, come and
+
+9
+00:00:30,590 --> 00:00:33,180
+experience the university and
+what it has to offer.
+
+10
+00:00:33,180 --> 00:00:36,750
+And as a physicist he had
+access to some of the first
+
+11
+00:00:36,750 --> 00:00:38,410
+instances of the worldwide web.
+
+12
+00:00:38,410 --> 00:00:39,480
+And so I got to sit there and
+
+13
+00:00:39,480 --> 00:00:43,660
+play with things like NCSA Mosaic Early
+versions of Netscape, etc.
+
+14
+00:00:43,660 --> 00:00:45,540
+and I think it's that connectivity,
+
+15
+00:00:45,540 --> 00:00:50,670
+the idea that information was now a first
+class citizen in the world of sciences.
+
+16
+00:00:50,670 --> 00:00:53,540
+And so this new world that we're
+starting to see with data science,
+
+17
+00:00:53,540 --> 00:00:57,330
+these are competencies that
+learners are learning in preschool.
+
+18
+00:00:57,330 --> 00:01:01,450
+That are starting to think about data as a
+different way of investigating the world.
+
+19
+00:01:01,450 --> 00:01:06,520
+And I think that for me that started
+in a very early stage when I was young
+
+20
+00:01:06,520 --> 00:01:09,290
+at the university seeing
+what my father was doing and
+
+21
+00:01:09,290 --> 00:01:11,300
+being able to play with computers.
+
+22
+00:01:11,300 --> 00:01:14,517
+I'm happy to try and bring that
+to as many people as possible and
+
+23
+00:01:14,517 --> 00:01:18,719
+that's really one of the goals of this
+Introduction to Data Science with Python.
+
+24
+00:01:18,719 --> 00:01:25,729
+[MUSIC]

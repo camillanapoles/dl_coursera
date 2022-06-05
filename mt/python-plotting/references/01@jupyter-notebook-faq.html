@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jupyter Notebook FAQ</title>
+  <script src="../resource/jquery.js"></script>
+  <script>
+    $(function () {
+      var math_spans = $('span[hasMath="true"]');
+      if (math_spans.length > 0) {
+        load_css('../resource/katex/katex.min.css');
+        load_js('../resource/katex/katex.min.js', function () {
+          math_spans.each(function () {
+            katex.render($(this).text(), this, { throwOnError: false });
+          });
+        });
+      }
+    });
+
+    function load_css(url) {
+      $('<link>')
+        .appendTo('head')
+        .attr({
+          type: 'text/css',
+          rel: 'stylesheet',
+          href: url
+        });
+    }
+
+    function load_js(url, func) {
+      $('<script>')
+        .appendTo('head')
+        .attr({
+          src: url
+        })
+        .on('load', func);
+    }
+  </script>
+  <style>
+    .content-container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    pre, p.asset {
+      padding: 1em;
+      background: #f5f2f0;
+      overflow: auto;
+    }
+
+    p, h1, h2, h3, h4, h5, h6 {
+      font-family: OpenSans,Arial,sans-serif;
+      overflow-wrap: break-word;
+    }
+
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    table, th, td {
+      border: 1px gray solid;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-container">
+<h1>Current Questions</h1><ol type="1"><li><p>Which version of python is this course in?</p></li><li><p>How do I download and install the Jupyter Notebook system for offline use?</p></li><li><p>How do I download notebooks and data files?</p></li><li><p>How can I upload a notebook to the Coursera notebook environment?</p></li><li><p>How do I reset my notebook?</p></li><li><p>How do I get the latest version of the assignment notebooks?</p></li><li><p>How do I troubleshoot notebook errors?</p></li></ol><h1>Current Answers</h1><h2>1. Which version of python is this course in?</h2><p>This course is in python 3.6.</p><h2>2. How do I download and install the Jupyter Notebook system for offline use?</h2><p>To install the Jupyter Notebook system on your own machine, we recommend downloading <a href="https://www.anaconda.com/products/individual">Anaconda Individual Edition</a>. This will allow you to work on any personal data science projects outside of the Coursera Jupyter Notebooks. Anaconda is a distribution containing Python, the Conda package and environment manager, and many software packages for data science. We recommend installing the Python 3 version, as that is the version we will be using in this course. Once Anaconda is downloaded, you can access the Jupyter Notebooks through the Anaconda Navigator. For more information on downloading Anaconda, visit the <a href="https://docs.continuum.io/anaconda/install">Install Documentation</a>.</p><h2>3. How do I download notebooks and data files?</h2><p>To download the notebook files manually from within the Coursera Jupyter platform, navigate to the file directory by selecting <em>File</em> &gt; <em>Open...</em></p><img alt="Screen Shot 2016-10-18 at 11.54.32 AM.png" src="Screen%20Shot%202016-10-18%20at%2011.54.32%20AM.png"/><p>Then select the file that you would like to download...</p><img alt="Screen Shot 2016-10-18 at 2.16.41 PM.png" src="Screen%20Shot%202016-10-18%20at%202.16.41%20PM.png"/><p>And select <em>File</em> &gt; <em>Download</em>.</p><img alt="Screen Shot 2016-10-18 at 12.00.42 PM.png" src="Screen%20Shot%202016-10-18%20at%2012.00.42%20PM.png"/><p>For notebooks, download them by selecting <em>File</em> &gt; <em>Download as</em> &gt; <em>Notebook (.ipynb)</em>.</p><img alt="Screen Shot 2016-10-18 at 2.25.59 PM.png" src="Screen%20Shot%202016-10-18%20at%202.25.59%20PM.png"/><h2>4. How can I upload a notebook to the Coursera notebook environment?</h2><p>To upload a notebook to the Coursera notebook environment, first navigate to the Coursera notebook directory (see FAQ #3). Next, click Upload in the top right corner and select the notebook you want to upload. </p><img alt="Screen Shot 2017-02-06 at 10.27.55 AM.png" src="Screen%20Shot%202017-02-06%20at%2010.27.55%20AM.png"/><h2>5. How do I reset my notebook?</h2><p>To clear all the output and saved variables from the notebook, select <em>Kernel</em> &gt; <em>Restart &amp; Clear Output</em>.</p><img alt="Screen Shot 2016-10-18 at 2.41.06 PM.png" src="Screen%20Shot%202016-10-18%20at%202.41.06%20PM.png"/><p></p><p><strong>(Note: The following explains how to replace your notebook with a fresh new version. Because the files are overwritten with the new versions, you will lose any of your work! Be sure to download your notebooks if you want to keep the content!)</strong></p><p>If you wish to replace a notebook with a fresh new version, you can follow the following steps:</p><ul><li><p>From File -&gt; Open, select the notebook file and either rename or delete it</p></li><li><p>Select Help at the top right corner</p></li><li><p>Select Get latest version and either then Cancel or Update lab. </p></li><li><p>If the notebook is currently running, shown as a green icon, tick the file select box, then select Shutdown prior to renaming or deleting the file.</p></li></ul><p>Your directory will be populated with the newest versions of any files you deleted prior to this process.</p><p>Additionally, you can reference the following documentation for <a href="https://learner.coursera.help/hc/en-us/articles/360044758731-Solving-common-issues-with-Coursera-Labs">Solving common issues with Coursera Labs.</a></p><h2>6. How do I get the latest version of the assignment notebooks?</h2><p>In addition to the process for getting the newest versions outlined in <em>How do I reset my notebook?</em>, all the newest versions of the notebooks are available in the <em>readonly</em> folder in the Coursera notebook directory. To access the notebook directory from a Coursera notebook, select <em>File</em> &gt; <em>Open</em>... Then navigate to the <em>readonly</em> folder.</p><h2>7. How do I troubleshoot notebook errors?</h2><ol type="1"><li><p>Try restarting the kernel by choosing Kernel &gt; Restart &amp; Clear Output</p></li><li><p>Do not access files outside of the local filesystem - the autograder has no internet access.</p></li></ol><p></p><p></p>
+  </div>
+</body>
+</html>

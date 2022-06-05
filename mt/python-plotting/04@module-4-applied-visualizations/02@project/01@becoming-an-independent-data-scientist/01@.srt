@@ -1,0 +1,137 @@
+1
+00:00:09,590 --> 00:00:12,230
+This module's assignment is
+meant to be unique to you and
+
+2
+00:00:12,230 --> 00:00:15,430
+will allow you to show off your work
+in a portfolio should you want to.
+
+3
+00:00:16,510 --> 00:00:19,390
+You can make the assignment
+challenging and insightful and try and
+
+4
+00:00:19,390 --> 00:00:21,390
+solve a real world problem.
+
+5
+00:00:21,390 --> 00:00:23,192
+Or you can make it into
+a surface level and
+
+6
+00:00:23,192 --> 00:00:26,670
+demonstrate the techniques that
+you've learned in this course.
+
+7
+00:00:26,670 --> 00:00:27,600
+The choice is up to you.
+
+8
+00:00:28,758 --> 00:00:30,350
+When you login to the assignment for
+
+9
+00:00:30,350 --> 00:00:33,930
+Jupiter notebook,
+you'll be given a customized question.
+
+10
+00:00:33,930 --> 00:00:37,830
+This question will give you a region
+in the world, as well as a topic.
+
+11
+00:00:37,830 --> 00:00:41,257
+We try and generate the region at a city
+level, but you're welcome to use data
+
+12
+00:00:41,257 --> 00:00:44,860
+at the state or provincial level, as well,
+or at a countrywide level, as well.
+
+13
+00:00:44,860 --> 00:00:48,660
+As long as it could encompass
+the region that you're actually given.
+
+14
+00:00:48,660 --> 00:00:52,540
+The topic will be chosen from a list of
+things that I am interested in seeing,
+
+15
+00:00:52,540 --> 00:00:57,340
+sports and athletics, or political events,
+or weather and environmental topics.
+
+16
+00:00:57,340 --> 00:00:59,210
+And we might add more topics over time.
+
+17
+00:01:00,460 --> 00:01:04,210
+After this, you'll be asked to find at
+least two datasets available on the Web
+
+18
+00:01:04,210 --> 00:01:06,429
+and use them to answer
+a question of your choosing.
+
+19
+00:01:07,560 --> 00:01:10,830
+Now, my motivation for
+this assignment is pretty simple.
+
+20
+00:01:10,830 --> 00:01:13,007
+I want to learn more about the world and
+
+21
+00:01:13,007 --> 00:01:17,162
+I want you to help teach me through
+good information visualizations.
+
+22
+00:01:17,162 --> 00:01:21,387
+I want you to start to apply your skills
+to real world data and gain experience
+
+23
+00:01:21,387 --> 00:01:25,944
+starting with an ill-defined problem and
+moving through the data collection and
+
+24
+00:01:25,944 --> 00:01:29,470
+cleaning in pandas,
+to data representation in that you live.
+
+25
+00:01:29,470 --> 00:01:32,970
+Finally, I would love to share some of
+the great looking visualizations from this
+
+26
+00:01:32,970 --> 00:01:34,170
+course with others.
+
+27
+00:01:34,170 --> 00:01:36,810
+If you do not mind we sharing
+your solutions, just indicate so
+
+28
+00:01:36,810 --> 00:01:39,490
+when you upload to the peer review system.
+
+29
+00:01:39,490 --> 00:01:41,150
+I am looking forward to
+seeing what you built.
